@@ -1,0 +1,188 @@
+/*INTRO*/
+img {
+    width: 45%;
+    border-radius: 5%;
+
+}
+
+.title {
+
+    text-align: center;
+    display: flex;
+    background-color: rgb(138, 179, 230);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+h2 {
+    font-size: 6rem;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 5px
+}
+
+.intro1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.intro2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 10%;
+
+
+
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.introgauche {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    color: white;
+    align-items: center;
+}
+
+.introdroite {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 40%;
+    align-items: center;
+
+}
+
+.separateur {
+
+    border-radius: 10px;
+    color: rgb(19, 17, 17);
+    margin: 12px;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(19, 17, 17);
+
+}
+
+/* MAIN */
+
+.description {
+    margin: 5%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.centralgauche {
+    background-color: rgb(220, 224, 203);
+    flex-basis: 25%;
+
+    text-align: center;
+    border-radius: 10px
+}
+
+.centraldroite {
+
+    flex-basis: 70%;
+
+    padding: 25px;
+    border-radius: 10px
+}
+
+.formations {
+    margin-bottom: 5%;
+    background-color: rgb(161, 221, 240);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.loisirs {
+    margin-top: 5%;
+    background-color: rgb(178, 240, 161);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+h5 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+
+
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline overline blue
+}
+
+.loisirs {
+    font-size: 400%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+@media screen and (max-width: 768px) {
+    .central {
+        flex-direction: column;
+    }
+
+    .centralgauche,
+    .centraldroite {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 200%;
+    }
+
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .title h3 {
+        font-size: 2rem;
+
+    }
+
+    .loisirs {
+        font-size: 200%;
+    }
+
+    .intro1,
+    .intro2 {
+        flex-direction: column;
+      
+    }
+}
